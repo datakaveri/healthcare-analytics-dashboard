@@ -120,31 +120,5 @@ The application expects the following data files:
 3. Import and add the function to `app.py`
 4. Add a new navigation option in the sidebar
 
-### Styling Customization
 
-The application uses custom CSS for styling. You can modify the styles in the `st.markdown()` section at the beginning of `app.py`.
 
-## 🐛 Troubleshooting
-
-### Common Issues
-
-1. **Module Import Errors**: Ensure all dependencies are installed via `pip install -r requirements.txt`
-2. **Data File Not Found**: Verify that `processed_data.csv` and `patients_df.csv` are in the project root directory
-3. **Performance Issues**: For large datasets, consider implementing data sampling or caching strategies
-
-### Performance Tips
-
-- The application uses `@st.cache_data` for data loading optimization
-- Large datasets may require pagination or sampling for better performance
-- Consider using `st.empty()` for dynamic content updates
-
-## 📈 Future Enhancements
-
-- [ ] Real-time data integration
-- [ ] Export functionality for reports and visualizations
-- [ ] Advanced filtering and search capabilities
-- [ ] Machine learning model integration
-- [ ] Multi-user authentication and role-based access
-- [ ] API integration for external data sources
-
----
